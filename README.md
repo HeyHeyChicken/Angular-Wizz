@@ -15,8 +15,8 @@ You can add it to your applications for fun, hide an easter egg or sign your wor
 
 ## 🔧 Prerequisites
 
-[<img src="https://raw.githubusercontent.com/HeyHeyChicken/NOVA/master/resources/nodeJSLogo.png" width="18" /> Node.js](https://nodejs.org/)<br/>
-[<img src="https://raw.githubusercontent.com/HeyHeyChicken/NOVA/master/resources/npmLogo.png" width="18" /> npm](https://npmjs.com/)<br/>
+[<img src="https://raw.githubusercontent.com/HeyHeyChicken/Angular-Wizz/main/.github/nodeJSLogo.png" width="18" /> Node.js](https://nodejs.org/)<br/>
+[<img src="https://raw.githubusercontent.com/HeyHeyChicken/Angular-Wizz/main/.github/npmLogo.png" width="18" /> npm](https://npmjs.com/)<br/>
 
 ## ⬇️ Installation
 
