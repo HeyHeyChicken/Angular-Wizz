@@ -1,0 +1,20 @@
+{
+  "name": "@heyheychicken/angular-wizz",
+  "version": "17.0.0",
+  "description": "Add the 'Wizz' to your Angular app.",
+  "main": "src/public-api.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HeyHeyChicken/Angular-Wizz"
+  },
+  "keywords": [
+    "angular",
+    "wizz"
+  ],
+  "author": "HeyHeyChicken",
+  "peerDependencies": {
+    "@angular/common": "^17.0.0",
+    "@angular/core": "^17.0.0",
+    "@angular/forms": "^17.0.0"
+  }
+}
