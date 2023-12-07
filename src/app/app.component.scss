@@ -1,0 +1,108 @@
+#screen{
+    height: 100%;
+    width: 100%;
+    background: #D7E4F5 url("/assets/imgs/background.png") bottom 0px right no-repeat;
+
+    $border_color: #586170;
+    $radius: 8px;
+    $duck_size: 116px;
+    $padding_side: 15px;
+    > #textbox, > #duck{
+        border: 1px solid $border_color;
+        border-radius: $radius;
+        position: absolute;
+        bottom: 20px;
+        height: $duck_size;
+        box-sizing: border-box;
+    }
+
+    #textbox{
+        width: calc(100% - #{$duck_size} - #{$padding_side} * 3 - 1px * 4);
+        left: $padding_side;
+        overflow: hidden;
+
+        $size: 24px;
+        > header, > footer{
+            background: linear-gradient(#D8E8F7, #F5F2F9, #D8E8F7);
+            height: $size;
+
+            > button{
+                border: none;
+                background-color: transparent;
+                padding: 0 6px;
+                height: $size;
+                cursor: pointer;
+
+                > *{
+                    float: left;
+                }
+
+                > i{
+                    transform: scale(0.6);
+                    display: block;
+                    font-style: normal;
+                }
+
+                > span{
+                    margin-left: 3px;
+                }
+            }
+        }
+
+        > *{
+            box-sizing: border-box;
+        }
+
+        > header{
+            border-bottom: 1px solid $border_color;
+        }
+
+        > textarea{
+            height: calc(100% - #{$size} * 2);
+            border: none;
+            width: 100%;
+            display: block;
+            resize: none;
+            outline: none;
+            padding: 12px;
+        }
+
+        > footer{
+            border-top: 1px solid $border_color;
+        }
+    }
+
+    #duck{
+        width: $duck_size;
+        right: $padding_side;
+    
+        $img_size: 96px;
+        > img{
+            position: absolute;
+    
+            &.duck{
+                width: $img_size;
+                height: $img_size;
+                border: 1px solid $border_color;
+                border-radius: $radius;
+                top: 4px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            
+            &.expand{
+                left: calc(100% + 1px);
+                top: 4px;
+            }
+        }
+    
+        > .down{
+            position: absolute;
+            right: calc((#{$duck_size} - #{$img_size}) / 2);
+            top: $img_size;
+    
+            color: #4D5967;
+            transform: scaleY(0.5);
+        }
+    }
+}

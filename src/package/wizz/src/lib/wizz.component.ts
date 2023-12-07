@@ -82,6 +82,10 @@ export class WizzComponent {
 
   private _wizz(): void {
     this._dictionary = '';
+    this.wizz();
+  }
+
+  public wizz(): void {
     const CLASS: string = 'wizz';
     document.body.classList.add(CLASS);
     setTimeout(() => {

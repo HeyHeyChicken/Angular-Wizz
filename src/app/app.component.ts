@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { WizzModule } from '../package/wizz/src/lib/wizz.module';
+import { WizzComponent } from '../package/wizz/src/public-api';
 
 @Component({
   selector: 'app-root',
@@ -11,5 +12,17 @@ import { WizzModule } from '../package/wizz/src/lib/wizz.module';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'wizz';
+  //#region Attributes
+
+  @ViewChild('wizzComponent') wizzComponent?: WizzComponent;
+
+  //#endregion
+
+  //#region Function
+
+  protected wizz(): void{
+    this.wizzComponent?.wizz();
+  }
+
+  //#endregion
 }
