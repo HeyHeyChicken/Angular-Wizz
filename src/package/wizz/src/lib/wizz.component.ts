@@ -1,5 +1,5 @@
 /**
- * WIZZ v2
+ * WIZZ
  */
 
 //#region Imports
