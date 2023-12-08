@@ -20,8 +20,8 @@ You can add it to your applications for fun, hide an easter egg or sign your wor
 
 ## ⬇️ Installation
 
-This is a [Node.js](//nodejs.org/en/) module available through the [npm registry](//www.npmjs.com/).
-If this is a brand new project, make sure to create a `package.json` first with the [`npm init` command](https://docs.npmjs.com/creating-a-package-json-file).
+This is a [Node.js](//nodejs.org/en/) module available through the [npm registry](//www.npmjs.com/).<br>
+If this is a brand new project, make sure to create a `package.json` first with the [`npm init` command](https://docs.npmjs.com/creating-a-package-json-file).<br>
 Installation is done using the [`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
 
 ```console
