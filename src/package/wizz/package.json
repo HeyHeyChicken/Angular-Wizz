@@ -1,12 +1,15 @@
 {
   "name": "@heyheychicken/angular-wizz",
-  "version": "17.0.1",
+  "version": "17.0.2",
   "description": "Add the 'Wizz' to your Angular app.",
   "main": "src/public-api.js",
   "author": "Antoine Duval (HeyHeyChicken)",
   "repository": {
     "type": "git",
     "url": "https://github.com/HeyHeyChicken/Angular-Wizz"
+  },
+  "scripts": {
+    "nexus": "npm install && ng-packagr -p ./ng-package.json && cd ./dist && npm publish && cd ../ && rmdir /Q /S .\\dist && rmdir /Q /S .\\node_modules"
   },
   "keywords": [
     "angular",
