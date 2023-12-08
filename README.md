@@ -17,7 +17,7 @@ You can add it to your applications for fun, hide an easter egg or sign your wor
 
 [<img src="https://raw.githubusercontent.com/HeyHeyChicken/Angular-Wizz/main/.github/nodeJSLogo.png" width="18" /> Node.js](//nodejs.org/)<br/>
 [<img src="https://raw.githubusercontent.com/HeyHeyChicken/Angular-Wizz/main/.github/npmLogo.png" width="18" /> npm](//npmjs.com/)<br/>
-[<img src="https://raw.githubusercontent.com/HeyHeyChicken/Angular-Wizz/main/.github/angularLogo.png" width="18" /> npm](//angular.io/)<br/>
+[<img src="https://raw.githubusercontent.com/HeyHeyChicken/Angular-Wizz/main/.github/angularLogo.png" width="18" /> Angular](//angular.io/)<br/>
 
 ## ⬇️ Installation
 
