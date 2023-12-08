@@ -1,6 +1,6 @@
 {
   "name": "@heyheychicken/angular-wizz",
-  "version": "17.0.0",
+  "version": "17.0.1",
   "description": "Add the 'Wizz' to your Angular app.",
   "main": "src/public-api.js",
   "repository": {
