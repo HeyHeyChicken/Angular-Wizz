@@ -31,7 +31,7 @@ npm i @heyheychicken/angular-wizz
 ## 🚀 Usage
 
 1) Import the `WizzModule` in your standalone component our in your app module.
-```console
+```ts
 @Component({
   ...
   standalone: true,
@@ -41,7 +41,7 @@ npm i @heyheychicken/angular-wizz
 ```
 
 2) Add the WizzComponent in your `app.component.html` file.
-```console
+```html
 ...
 <wizz #wizzComponent></wizz>
 ...
@@ -50,7 +50,7 @@ npm i @heyheychicken/angular-wizz
 3) Just write `WIZZ` (in uppercase) when you are using you app.
 
 4) (Optional) If you wan't to manualy trigger the wizz, just implement it in your  `app.component.ts` file.
-```console
+```ts
   //#region Attributes
 
   @ViewChild('wizzComponent') wizzComponent?: WizzComponent;
