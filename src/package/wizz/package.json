@@ -3,15 +3,18 @@
   "version": "17.0.1",
   "description": "Add the 'Wizz' to your Angular app.",
   "main": "src/public-api.js",
+  "author": "Antoine Duval (HeyHeyChicken)",
   "repository": {
     "type": "git",
     "url": "https://github.com/HeyHeyChicken/Angular-Wizz"
   },
   "keywords": [
     "angular",
-    "wizz"
+    "wizz",
+    "javascript",
+    "typescript"
   ],
-  "author": "HeyHeyChicken",
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^17.0.0",
     "@angular/core": "^17.0.0",
