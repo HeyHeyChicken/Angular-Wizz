@@ -15,23 +15,57 @@ You can add it to your applications for fun, hide an easter egg or sign your wor
 
 ## 🔧 Prerequisites
 
-[<img src="https://raw.githubusercontent.com/HeyHeyChicken/Angular-Wizz/main/.github/nodeJSLogo.png" width="18" /> Node.js](https://nodejs.org/)<br/>
-[<img src="https://raw.githubusercontent.com/HeyHeyChicken/Angular-Wizz/main/.github/npmLogo.png" width="18" /> npm](https://npmjs.com/)<br/>
+[<img src="https://raw.githubusercontent.com/HeyHeyChicken/Angular-Wizz/main/.github/nodeJSLogo.png" width="18" /> Node.js](//nodejs.org/)<br/>
+[<img src="https://raw.githubusercontent.com/HeyHeyChicken/Angular-Wizz/main/.github/npmLogo.png" width="18" /> npm](//npmjs.com/)<br/>
 
 ## ⬇️ Installation
 
 This is a [Node.js](//nodejs.org/en/) module available through the [npm registry](//www.npmjs.com/).<br>
-If this is a brand new project, make sure to create a `package.json` first with the [`npm init` command](https://docs.npmjs.com/creating-a-package-json-file).<br>
-Installation is done using the [`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
+If this is a brand new project, make sure to create an Angular project first with the [`npx ng new myProjectName` command](//angular.io/tutorial/tour-of-heroes/toh-pt0).<br>
+Installation is done using the [`npm install` command](//docs.npmjs.com/getting-started/installing-npm-packages-locally):
 
 ```console
 npm i @heyheychicken/angular-wizz
 ```
 
-
 ## 🚀 Usage
 
-(TODO)
+1) Import the `WizzModule` in your standalone component our in your app module.
+```console
+@Component({
+  ...
+  standalone: true,
+  imports: [..., WizzModule],
+  ...
+})
+```
+
+2) Add the WizzComponent in your `app.component.html` file.
+```console
+...
+<wizz #wizzComponent></wizz>
+...
+```
+
+3) Just write `WIZZ` (in uppercase) when you are using you app.
+
+4) (Optional) If you wan't to manualy trigger the wizz, just implement it in your  `app.component.ts` file.
+```console
+  //#region Attributes
+
+  @ViewChild('wizzComponent') wizzComponent?: WizzComponent;
+
+  //#endregion
+
+  //#region Function
+
+  protected wizzButtonClicked(): void{
+    this.wizzComponent?.wizz();
+  }
+
+  //#endregion
+```
+
 
 ## 💻 Compatibility
 
